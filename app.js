@@ -15,7 +15,7 @@ app.use('/', express.static('public'));
 
 // Port listening
 
-const port = process.env.PORT || 23456;
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
   console.log(`App is listening on port ${port}`);
